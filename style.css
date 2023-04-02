@@ -2,9 +2,26 @@
 
 /* font-family: 'Rubik', sans-serif; */
 
+/* start: utility class */
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/* End: utitity class */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: 'Rubik', sans-serif;
     color: #444;
+}
+
+header {
+    height: 100vh;
 }
 
 nav {
@@ -39,6 +56,7 @@ p {
 
 section {
     padding: 96px 0;
+    background-color: #f7f7f7;
 }
 
 h2 {
